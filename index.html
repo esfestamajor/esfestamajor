@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<title>Festes Majors</title>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 300px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Festes Majors</h1>
+<input type="text" id="search" placeholder="Cerca municipi...">
+
+<table id="festesTable">
+  <thead>
+    <tr>
+      <th>Municipi</th>
+      <th>Comarca</th>
+      <th>Data inici</th>
+      <th>Data fi</th>
+      <th>Programa</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script>
+fetch('Esfestamajor.json')
+  .then(response => response.json())
+  .then(data => {
+    const tbody = document.querySelector('#festesTable tbody');
+    const searchInput = document.getElementById('search');
+
+    function renderTable(filter = '') {
+      tbody.innerHTML = '';
+      data
+        .filter(item => item.municipi.toLowerCase().includes(filter.toLowerCase()))
+        .forEach(item => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${item.municipi}</td>
+            <td>${item.comarca}</td>
+            <td>${item.data_inici}</td>
+            <td>${item.data_fi}</td>
+            <td><a href="${item.programa}" target="_blank">Veure</a></td>
+          `;
+          tbody.appendChild(row);
+        });
+    }
+
+    renderTable();
+
+    searchInput.addEventListener('input', e => {
+      renderTable(e.target.value);
+    });
+  });
+</script>
+
+</body>
+</html>

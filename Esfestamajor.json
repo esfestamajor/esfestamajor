@@ -1,0 +1,68 @@
+[
+  {
+    "municipi":"Mollet del Vallès",
+    "comarca":"Vallès Oriental",
+    "lat":41.5387,
+    "lng":2.2133,
+    "tipus":1,
+    "data_inici":"2025-08-11",
+    "data_fi":"2025-08-19",
+    "descripcio":"Festa Major de Mollet del Vallès",
+    "programa":"https:\/\/www.molletvalles.cat\/ca\/serveis\/cultura\/calendari-festiu\/festa-major-destiu-1\/festa-major-2025\/programa-dactes"
+  },
+  {
+    "municipi":"Aiguafreda",
+    "comarca":"Vallès Oriental",
+    "lat":41.7686,
+    "lng":2.2499,
+    "tipus":1,
+    "data_inici":"2025-08-14",
+    "data_fi":"2025-08-17",
+    "descripcio":"Festa Major d'Aiguafreda",
+    "programa":"https:\/\/www.femturisme.cat\/ca\/agenda\/festa-major-d-estiu-a-aiguafreda"
+  },
+  {
+    "municipi":"L'Ametlla del Vallès",
+    "comarca":"Vallès Oriental",
+    "lat":41.6693,
+    "lng":2.6118,
+    "tipus":1,
+    "data_inici":"2025-08-20",
+    "data_fi":"2025-08-25",
+    "descripcio":"Festa Major de l'Ametlla del Vallès",
+    "programa":"https:\/\/www.ametlla.cat\/actualitat\/noticies\/tot-a-punt-per-a-la-festa-major.html"
+  },
+  {
+    "municipi":"Bigues i Riells",
+    "comarca":"Vallès Oriental",
+    "lat":41.6785,
+    "lng":2.2088,
+    "tipus":1,
+    "data_inici":"2025-06-26",
+    "data_fi":"2025-06-29",
+    "descripcio":"Festa Major Bigues",
+    "programa":"https:\/\/www.biguesiriells.cat\/ca\/actualitat-2\/agenda-1\/festa-major-bigues-del-2025-1345.htm"
+  },
+  {
+    "municipi":"Caldes de Montbui",
+    "comarca":"Vallès Oriental",
+    "lat":41.6344,
+    "lng":2.1622,
+    "tipus":1,
+    "data_inici":"2025-10-11",
+    "data_fi":"2025-10-14",
+    "descripcio":"Festa Major Caldes de Montbui",
+    "programa":"No disponible"
+  },
+  {
+    "municipi":"Caldes de Montbui",
+    "comarca":"Vallès Oriental",
+    "lat":41.6344,
+    "lng":2.1622,
+    "tipus":2,
+    "data_inici":"2025-07-01",
+    "data_fi":"2025-07-12",
+    "descripcio":"Escaldàrium Caldes de Montbui",
+    "programa":"https:\/\/www.escaldarium.com\/programa-2025"
+  }
+]
